@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - WOW</title>
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" href="contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+          <img src="images/logo.webp" alt="logo" height="60px" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="wonders.html">Modern Wonders</a></li>
+        <li class="nav-item"><a class="nav-link" href="ancientwonders.html">Ancient Wonders</a></li>
+                  <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Animated golden line under navbar -->
+<div class="golden-line"></div>
+
+
+  <div class="contact-form" style="max-width: 600px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px;">
+    <h2>Contact Us</h2>
+    <form id="contactForm" action="https://formsubmit.co/wondersofworldwow76@gmail.com" method="post" novalidate>
+      
+      <!-- Full Name -->
+      <div style="margin-bottom: 15px;">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required placeholder="please enter your full name" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        <small id="nameError" style="color: red; display: none;">Please enter your full name.</small>
+      </div>
+
+      <!-- Email -->
+      <div style="margin-bottom: 15px;">
+        <label for="email">Email address</label><br>
+        <input type="email" id="email" name="email" required placeholder="Please enter your email" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        <small id="emailError" style="color: red; display: none;">Please enter a valid email address.</small>
+      </div>
+
+      <!-- Message -->
+      <div style="margin-bottom: 15px;">
+        <label for="message">Your Message</label><br>
+        <textarea id="message" name="message" required rows="5" placeholder="Write your message..." style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+        <small id="messageError" style="color: red; display: none;">Please enter a message.</small>
+      </div>
+
+      <!-- Submit Button -->
+      <button class="btn btn-primary btn-sm">Send Message</button>
+
+    </form>
+  </div>
+
+   <footer>
+    <!-- Site Map Content -->
+    <div class="container mt-5">
+      <div class="row">
+
+        <div class="col-md-4">
+          <h5>Main Pages</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wonders.html">Modern Wonders</a></li>
+            <li><a href="ancientwonders.html">Ancient Wonders</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5>Downloads</h5>
+          <ul class="list-unstyled">
+            <li><a href="information pdf/CHICHEN ITZA.pdf">Chichen Itza (PDF)</a></li>
+            <li><a href="information pdf/TAJ MAHAL.pdf">Taj Mahal (PDF)</a></li>
+            <li><a href="information pdf/Great Wall of China.pdf">Great Wall of China (PDF)</a></li>
+            <li><a href="information pdf/PETRA.pdf">Petra (PDF)</a></li>
+            <li><a href="information pdf/Christ The Redeemer.docx.pdf">Christ the Redeemer(PDF)</a></li>
+            <li><a href="information pdf/MACHU PICCHU.pdf">Machu Picchu(PDF)</a></li>
+            <li><a href="information pdf/Colosseum.pdf">Colosseum (PDF)</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5>Downloads</h5>
+          <ul class="list-unstyled">
+            <li><a href="information pdf/Statue of Zeus.pdf">Statue of Zeus(PDF)</a></li>
+            <li><a href="information pdf/Great Pyramid of Giza.pdf">Pyramid of Giza (PDF)</a></li>
+            <li><a href="information pdf/Colossus of Rhodes.pdf">colossus of Rhodes(PDF)</a></li>
+            <li><a href="information pdf/Lighthouse of Alexandria.pdf">Lighthouse of Alexandria (PDF)</a></li>
+            <li><a href="information pdf/Hanging Gardens of Babylon.pdf">Hanging Garden of Babylon (PDF)</a></li>
+            <li><a href="information pdf/Mausoleum at Halicarnassus.pdf">Mausolleum (PDF)</a></li>
+            <li><a href="information pdf/Temple of Artemis.pdf">Temple of Artemis (PDF)</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <p>&copy; 2025 Wonders of World (WOW). All rights reserved.</p>
+  </footer>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+
+</html>
+
+</body>
+</html>
